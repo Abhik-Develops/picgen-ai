@@ -10,13 +10,6 @@ export function getRandomPrompt(prompt) {
     return randomPrompt;
 }
 
-export async function downloadImage(_id, photoUrl) {
-    try {
-        const response = await fetch(photoUrl);
-        const blob = await response.blob();
-        const filename = `download-${_id}.jpg`;
-        saveAs(blob, filename);
-    } catch (error) {
-        console.error('Error downloading image:', error);
-    }
+export async function downloadImage(_id, photo) {
+    saveAs(photo, `download-${_id}.jpg`);
 }

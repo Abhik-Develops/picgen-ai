@@ -27,7 +27,7 @@ router.post('/', async (req, res) => {
         const newPost = await PostModel.create({
             name,
             prompt,
-            photo: photoUrl.url,
+            photo: photoUrl.secure_url,
         })
         res.status(201).json({ success: true, data: newPost});
     } catch (error) {
