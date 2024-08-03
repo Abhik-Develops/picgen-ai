@@ -1,8 +1,13 @@
 # PicGen AI
 
+PicGen AI is a web application built using the MERN stack that allows users to generate images from text inputs. It leverages the API of the Hugging Face Stable Diffusion AI Model to create captivating visual content based on user-provided prompts.
+
 ## Live Demo: https://picgen-ai.onrender.com
 
-PicGen AI is a web application built using the MERN stack that allows users to generate images from text inputs. It leverages the API of the Hugging Face Stable Diffusion AI Model to create captivating visual content based on user-provided prompts.
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/c1ae31f8-5e90-4392-9e33-db2b6535ecd3)
+![image](https://github.com/user-attachments/assets/d19988a9-c461-4ca1-b4b1-eeacd29594d0)
 
 ## Features
 
